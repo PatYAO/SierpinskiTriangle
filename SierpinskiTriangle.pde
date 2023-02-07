@@ -2,13 +2,11 @@ import processing.core.PApplet;
 
 public class Sketch extends PApplet {
 
-  public void settings() {
+  public void setup() {
     size(400, 400);
   }
 
-  public void setup(){
-    //empty!
-  }
+
   public void draw(){
   sierpinski(50,300,300);
   }
