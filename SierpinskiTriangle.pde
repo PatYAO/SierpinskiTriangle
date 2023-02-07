@@ -1,6 +1,6 @@
-import processing.core.PApplet;
 
-public class Sketch extends PApplet {
+
+
 
   public void settings() {
     size(400, 400);
@@ -25,4 +25,4 @@ public class Sketch extends PApplet {
     sierpinski(x+len/4, y-len/2, len/2);
   }
   }
-}
+
